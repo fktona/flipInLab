@@ -27,8 +27,6 @@ Video() {
           height='70vh'
           playing={playVideo}
           controls={true}
-          // onEnded={() => setPlayVideo(false)}
-          light='/art/a1.png'
 
         />}
 
