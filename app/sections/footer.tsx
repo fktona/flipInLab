@@ -11,9 +11,11 @@ export default function Footer() {
             <div className='lg:flex cursor-pointer grid grid-cols-3 place-items-center lg:gap-2 gap-4 justify-center'>
             {
                 social.map((o) => (
-                    <div key={o.id} className='w-[80px] aspect-square flex items-center justify-center bg-[#0A0E0D] rounded-[6px]'>
+                    <a  key={o.id} href={o.link} target='_blank'>
+                    <div  className='w-[80px] socials aspect-square flex items-center justify-center bg-[#0A0E0D] rounded-[6px]'>
                      <Image alt={o.image} src={`/socials/${o.image}.svg`} width={46} height={46} className='' />
                     </div>
+                    </a>
                 ))
             }
             </div>

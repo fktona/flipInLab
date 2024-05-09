@@ -82,9 +82,9 @@ export default function Live() {
                 ))
             }
         </div>
-        <p className='text-semibold lg:text-[30px] text-[18px] lg:mt-[45px] mt-[20px] px-10 '>View more <Image src='/Arrow.png' 
+        {/* <p className='text-semibold lg:text-[30px] text-[18px] lg:mt-[45px] mt-[20px] px-10 '>View more <Image src='/Arrow.png' 
         alt='arrow' width={50} height={50} className='inline w-8' />
-        </p>
+        </p> */}
     </div>
     
   )

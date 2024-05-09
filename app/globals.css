@@ -187,3 +187,21 @@ margin-bottom: 10px;
   color: #FFB72B;
 
 }
+
+.socials:hover{
+  background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.607) 0%, rgba(255, 255, 255, 0.607) 100%);
+  animation: fade 0.2s linear alternate forwards;
+  background-size: 100% 1%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+@keyframes fade {
+  0% {
+    background-size: 100% 0%;
+     /* background-color:  #0A0E0D; */
+  }
+  100% {
+    background-size: 100% 100%;
+  }
+}

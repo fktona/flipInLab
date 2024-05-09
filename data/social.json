@@ -1,9 +1,8 @@
 [
-    { "id": 1, "image": "tiktok"},
-    { "id": 2, "image": "ig" },
-    { "id": 3, "image": "x" },
-    { "id": 4, "image": "discord"},
-    { "id": 5, "image": "sound"},
-    { "id": 6, "image": "mail"}
+    { "id": 1, "image": "tiktok" ,"link":"https://www.tiktok.com/@flippinlabs"},
+    { "id": 2, "image": "ig" , "link":"https://www.instagram.com/theflippinlabs"},
+    { "id": 3, "image": "x" , "link":"https://twitter.com/theflippinlabs"},
+    { "id": 4, "image": "discord" , "link":"https://discord.com/invite/flippinlabs"},
+    { "id": 5, "image": "sound" , "link":"https://soundcloud.com/the-flippinlabs"}
   ]
   
