@@ -52,24 +52,24 @@ export default function Live() {
             <li 
             id='monarchy'
             onClick={handleClick}
-             className={` relative  lg:w-[60%] whitespace-nowrap text-center ${option.monarchy && 'list text-white'}`}>Monarchy</li>
+             className={` relative  hover:text-white/90  lg:w-[60%] whitespace-nowrap text-center ${option.monarchy && 'list text-white'}`}>Monarchy</li>
             <li 
             id='darkMonarchy'
             onClick={handleClick}
-            className={`relative lg:w-[80%]   text-center whitespace-nowrap
+            className={`relative lg:w-[80%]  hover:text-white/90   text-center whitespace-nowrap
              ${option.darkMonarchy && 'list  text-white '}`}>Dark monarchy</li>
             <li 
             id='missDaisy'
             onClick={handleClick}
-            className={`relative lg:w-[60%]  text-center whitespace-nowrap ${option.missDaisy && 'list  text-white'}`}>Miss Daisy</li>
+            className={`relative lg:w-[60%]  hover:text-white/90  text-center whitespace-nowrap ${option.missDaisy && 'list  text-white'}`}>Miss Daisy</li>
             <li 
             id='spaceHunter'
             onClick={handleClick}
-            className={`relative whitespace-nowrap ${option.spaceHunter && 'list  text-white'} w-[70%]  text-center`}>Space hunter</li>
+            className={`relative  hover:text-white/90 whitespace-nowrap ${option.spaceHunter && 'list  text-white'} w-[70%]  text-center`}>Space hunter</li>
             <li 
             id='sunriseWarrior'
             onClick={handleClick}
-            className={`relative whitespace-nowrap lg:w-[80%]  text-center ${option.sunriseWarrior && 'list  text-white'}`}>Sunrise warrior</li>
+            className={`relative  hover:text-white/90 whitespace-nowrap transition duration-300 lg:w-[80%]  text-center ${option.sunriseWarrior && 'list  text-white'}`}>Sunrise warrior</li>
         </ul>
         {/* <div className='relative w-full h-[1px]  mt-[20px] lg:mt-[25px] bg-white/60'></div> */}
         <div className='grid md:grid-cols-4 grid-cols-2 gap-4 relative mt-[67px] lg:px-10 '>

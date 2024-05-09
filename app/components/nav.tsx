@@ -18,13 +18,13 @@ export default function Nav() {
     <nav className='relative flex justify-between z-[50]
      items-center md:items-start lg:px-[109px]  lg:mt-[62px] px-5 mt-[50px]'>
         <Image alt='Flip In Labs' src='/logo.png' width={168} height={92} />
-        <ul className=' text-5  font-normal cursor-pointer text-white md:flex hidden lg:gap-[51px] 
+        <ul className=' text-5  font-normal cursor-pointer text-white md:flex hidden lg:gap-[40px] 
         
         gap-10 justify-center items-center'>
-            <li className='hover:text-[#FFB72B]' onClick={() => scrollToSection(aboutRef) }>About</li>
-            <li className='hover:text-[#FFB72B]' onClick={() => scrollToSection(missionRef)}>Our Mission</li>
-            <li className='hover:text-[#FFB72B]' onClick={() => scrollToSection(projectRef)}>Projects</li>
-            <li className='hover:text-[#FFB72B]' onClick={() => scrollToSection(teamRef)}>Team</li>
+            <li className='navHover px-4 py-2 rounded-[89px] transition-all duration-300' onClick={() => scrollToSection(aboutRef) }>About</li>
+            <li className='navHover px-4 py-2 rounded-[89px] transition-all duration-300' onClick={() => scrollToSection(missionRef)}>Our Mission</li>
+            <li className='navHover px-4 py-2 rounded-[89px] transition-all duration-300' onClick={() => scrollToSection(projectRef)}>Projects</li>
+            <li className='navHover px-4 py-2 rounded-[89px] transition-all duration-300' onClick={() => scrollToSection(teamRef)}>Team</li>
         </ul>
 
         <div
