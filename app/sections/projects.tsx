@@ -14,7 +14,7 @@ export default function Project() {
    className='lg:px-[60px]  justify-center items-start px-5 flex flex-col gap-10  lg:mt-[250px] mt-[110px]'>
     <div className=' w-full space-y-8 text-center'>
     <h2 className='text-[34px] lg:text-[50px] font-bold' >Art Showcase</h2>
-    <p className='text-lg lg:text-[26px] text-white/70 '>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+    <p className='text-lg lg:text-[26px] text-white/70 '>Explore the unexpected and imaginative worlds conjured by AI</p>
     <div className='art  transition duration-300  relative'>
       
       {projects.map((project) => (

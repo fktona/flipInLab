@@ -42,9 +42,10 @@ export default function Live() {
     <div ref={projectRef}  className='px-5 lg:px-[100px]  mb-8 lg:mt-[170px] mt-[80px]'>
         <div className='relative space-y-8'>
             <h2 className='text-[24px] lg:text-[30px] font-bold'>Live & Upcoming Projects</h2>
-            <p className='text-lg lg:text-[20px] '>At FlippinLabs, we&apos;re passionate about
-             creating art with AI. Here&apos;s a glimpse into 
-                our ever-growing collection</p>
+            <p className='text-lg lg:text-[20px] '>Flipping Labs use diverse techniques and 
+            tools from ai to traditional methods, including Photoshop, hand-drawing, and craftsmanship to 
+            add uniqueness to our work,
+             ensuring each piece is one-of-a-kind.</p>
         </div>
         <ul className=' lg:px-10 relative overflow-x-scroll h-[100px] md:h-full overflow-y-hidden lg:overflow-visible cursor-pointer  mt-[57px] group px-4
          flex justify-start items-center lg:gap-[50px] gap-4 text-lg 

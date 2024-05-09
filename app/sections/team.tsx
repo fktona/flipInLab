@@ -45,12 +45,12 @@ export default function Team() {
         <div className='grid md:hidden relative grid-cols-3 gap-5 '>
             {
              team.map((o) =>(
-                   <div key={o.id} className=' relative  flex-col text-center items-center  gap-3 justify-center'>
+                   <div key={o.id} className=' relative   flex-col text-center items-center  gap-3 justify-center'>
                     <Image alt={o.name} src={`/team/${o.image}.png`} width={200} height={200} className='rounded-md w-full '/>
                     <p className='text-[12px] font-semibold '>{o.name}</p>
                     <p className='text-[6px] text-white/70'>{o.description}</p>
                     <a href={`https://twitter.com/${o.xhandle}`} target='_blank'>
-                    <Image alt='xhandle' src={`/socials/x.svg`} width={20} height={20} className='cursor-pointer' />
+                    <Image alt='xhandle' src={`/socials/x.svg`} width={20} height={20} className=' mx-auto mt-5 cursor-pointer' />
                     </a>
                     </div>
 

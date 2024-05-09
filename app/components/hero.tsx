@@ -31,6 +31,14 @@ export default function Hero () {
     return () => controls.stop();
   }, [width, xTrans]);
 
+  const fadeIn = {
+    hidden: { opacity: 0 , y: 100},
+    visible: { opacity: 1 , y: 0},
+  };
+  const fadeleft = {
+    hidden: { opacity: 0 , x: -100},
+    visible: { opacity: 1 , x: 0},
+  };
 
    const {aboutRef} = useScroll() as any
   return (
@@ -38,18 +46,30 @@ export default function Hero () {
     <motion.div  className='lg:px-[112px] px-5  relative md:px-10 md:mt-[40px] lg:mt-[79px] 
      flex justify-between  lg:flex-row flex-col gap-[29px]  '>
         <div className='flex  lg:flex-col relative gap-5 md:min-w-[45%] mt-[67px] md:mt-0 justify-start   w-full'>
-        <p className='lg:text-[64px] md:text-[55px]  font-bold relative text-[34px]'> 
+        <motion.p
+          variants={fadeleft}
+          initial="hidden"
+          animate="visible"
+          transition={{ duration: 0.5, delay:0.2 }}
+        
+        className='lg:text-[64px] md:text-[55px]  font-bold relative text-[34px]'> 
         Welcome to <br/> Flipping Labs
-        </p>
+        </motion.p>
         <Image alt='star' src='/star.svg' width={42} height={42} />
         </div>
-        <p className='text-white/85 text-[18px] lg:text-[28px] leading-normal'>
+        <motion.p
+         variants={fadeIn}
+         initial="hidden"
+         animate="visible"
+         transition={{ duration: 0.5, delay:0.5 }}
+         
+        className='text-white/85 text-[18px] lg:text-[28px] leading-normal'>
         Where community comes first. Born out of resilience and dedication,
          Flipping Labs emerged from the aftermath of a project&apos;s rug pull.
           Determined not to abandon their community, Flippin&apos; and Niffty joined forces,
            with Nifty&apos;s 
           support, Flippin&apos; decide to create the Flippin&apos; Labs. 
-        </p>
+        </motion.p>
 
     </motion.div>
     <div className=' relative w-[100vw] overflow-x-scroll md:overflow-x-hidden '>
