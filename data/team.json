@@ -1,0 +1,12 @@
+[
+    { "id": 1, "image": "team1" , "name": "Motherflipin", "description": "Founder , Creator & Artist"},
+    { "id": 2, "image": "team2" , "name":"Nifty","description":" Co Founder & Dev"  },
+    { "id": 3, "image": "team3" , "name":"Champagne" , "description":"Artist" },
+    { "id": 4, "image": "team4", "name":"Wizz" , "description":"Community manager"},
+    { "id": 5, "image": "team5", "name":"Princess" , "description":"Community assistant"},
+    { "id": 6, "image": "team6", "name":"Dezydank" , "description":"Collab manager"},
+    { "id": 7, "image": "team7", "name":"Foxy Roxy" , "description":"Mad & Space assistant"},
+    { "id": 8, "image": "team8" , "name":"Dave" , "description":"Mad & Space assistant"},
+    { "id": 9, "image": "team9", "name":"Kelvin" , "description":"Mad"}
+  ]
+  
