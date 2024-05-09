@@ -37,7 +37,7 @@ export default function Hero () {
     <main ref={aboutRef} className=''>
     <motion.div  className='lg:px-[112px] px-5  relative md:px-10 md:mt-[40px] lg:mt-[79px] 
      flex justify-between  lg:flex-row flex-col gap-[29px]  '>
-        <div className='flex  lg:flex-col relative gap-8 md:min-w-[40%] mt-[67px] md:mt-0 justify-start   w-full'>
+        <div className='flex  lg:flex-col relative gap-8 md:min-w-[50%] mt-[67px] md:mt-0 justify-start   w-full'>
         <p className='lg:text-[64px] md:text-[55px]  font-bold relative text-[34px]'> 
         Welcome to <br/> Flipping Labs
         </p>
@@ -60,7 +60,7 @@ export default function Hero () {
       gap-[9px]  mt-20 md:mt-[120px] lg:mt-[150px] '>
           {[...heroImage,...heroImage].map((image, index) => (
             <Image key={index} alt={image.image} src={`/hero/${image.image}.png`} width={290}
-             height={290} className=' w-full'  />
+             height={290} className=' w-full md:max-h-[450px] max-h-[250px]'  />
           ))}
         </motion.div>
         </div>
