@@ -60,7 +60,7 @@ export default function Hero () {
       gap-[9px]  mt-20 md:mt-[120px] lg:mt-[150px] '>
           {[...heroImage,...heroImage].map((image, index) => (
             <Image key={index} alt={image.image} src={`/hero/${image.image}.png`} width={290}
-             height={290} className=' w-full h-full'  />
+             height={290} className=' w-full'  />
           ))}
         </motion.div>
         </div>
