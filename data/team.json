@@ -1,7 +1,7 @@
 [
     { "id": 1, "image": "team1" , "name": "The Flippin’ Legend", "description": "Founder , Creator & Artist" , "xhandle": "theflippinlabs"},
     { "id": 2, "image": "team2" , "name":"Nifty","description":" Co Founder & Dev" , "xhandle": "pet_rescueNFT"},
-    { "id": 3, "image": "team3" , "name":"Champagne" , "description":"Artist", "xhandle":"cham_px" },
+    { "id": 3, "image": "team3" , "name":"Champagne" , "description":"Artist", "xhandle":"c_h_a_m_p_x" },
     { "id": 4, "image": "team4", "name":"Wizz" , "description":"Community manager" , "xhandle":"Flippin_wizard"},
     { "id": 5, "image": "team5", "name":"Princess" , "description":"Community assistant" , "xhandle":"defi_princess07"},
     { "id": 6, "image": "team6", "name":"Dezydank" , "description":"Collab manager" , "xhandle":"NancyBerry30694"},
