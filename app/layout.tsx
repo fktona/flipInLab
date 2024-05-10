@@ -19,6 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <link rel="shortcut icon" href="/logo.png" type="image/x-icon" />
+      <meta name="google-site-verification" content="bni2jw7MZ2tfOGbq5X3-DvSa7YNaTQlPnNVwjUMZpOM" />
       <body className={inter.className}>
        <ScrollProvider><MenuProvider>{children}</MenuProvider></ScrollProvider>
        </body>

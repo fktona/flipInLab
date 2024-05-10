@@ -17,7 +17,7 @@ export default function Nav() {
   const { openMenu, handleOpenMenu } = useMenu();
 
   const bounce = {
-    hidden: { opacity: 0, y: -50 },
+    hidden: { opacity: 0, y: -20 },
     visible: { opacity: 1, y: 0 },
   };
 
@@ -34,7 +34,7 @@ export default function Nav() {
       variants={fadeIn}
       initial="hidden"
       animate="visible"
-      transition={{ duration: 0.2 }}>
+      transition={{ duration: 0.2, delay:1 }}>
         
         <Image alt='Flip In Labs' src='/logo.png' width={168} height={92} />
         </motion.div>
@@ -45,29 +45,33 @@ export default function Nav() {
              variants={bounce}
              initial="hidden"
              animate="visible"
-             transition={{ type: 'keyframes', values: [0, -10, 0], times: [0, 0.5, 1], duration: 0.2 }}
+             transition={{ type:'spring', duration: 0.2, delay:1.2 }}
               className='navHover px-4 py-2 rounded-[89px] transition-all duration-300' onClick={() => scrollToSection(aboutRef) }>About</motion.li>
             <motion.li
              variants={bounce}
              initial="hidden"
              animate="visible"
-             transition={{ duration: 0.2, delay: 0.3 , damping:60 }}
+             transition={{ duration: 0.2, delay: 1.3 , damping:60 }}
               className='navHover px-4 py-2 rounded-[89px] transition-all duration-300' onClick={() => scrollToSection(missionRef)}>Our Mission</motion.li>
             <motion.li
              variants={bounce}
              initial="hidden"
              animate="visible"
-             transition={{ duration: 0.5, delay: 0.4 }}
+             transition={{ duration: 0.2, delay: 1.4 }}
               className='navHover px-4 py-2 rounded-[89px] transition-all duration-300' onClick={() => scrollToSection(projectRef)}>Projects</motion.li>
             <motion.li 
              variants={bounce}
              initial="hidden"
              animate="visible"
-             transition={{ duration: 0.5, delay: 0.5 }}
+             transition={{ duration: 0.2, delay: 1.5 }}
              className='navHover px-4 py-2 rounded-[89px] transition-all duration-300' onClick={() => scrollToSection(teamRef)}>Team</motion.li>
         </ul>
 
-        <div
+        <motion.div
+        variants={bounce}
+        initial="hidden"
+        animate="visible"
+        transition={{ duration: 0.2, delay: 1}}
         onClick={handleOpenMenu}
         className="gap-[3px] z-[77777] md:hidden cursor-pointer relative flex flex-col"
       >
@@ -80,7 +84,7 @@ export default function Nav() {
         <span
           className={`${openMenu ? "-bottom-3" : ""} transition-all duration-300  w-[42px] relative   h-[6px] bg-white`}
         ></span>
-      </div>
+      </motion.div>
 
 
     </nav>
