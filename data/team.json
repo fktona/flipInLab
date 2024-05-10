@@ -5,8 +5,8 @@
     { "id": 4, "image": "team4", "name":"Wizz" , "description":"Community manager" , "xhandle":"Flippin_wizard"},
     { "id": 5, "image": "team5", "name":"Princess" , "description":"Community assistant" , "xhandle":"defi_princess07"},
     { "id": 6, "image": "team6", "name":"Dezydank" , "description":"Collab manager" , "xhandle":"NancyBerry30694"},
-    { "id": 7, "image": "team7", "name":"Foxy Roxy" , "description":"Mad & Space assistant" , "xhandle":"DefiDave2k24"},
-    { "id": 8, "image": "team8" , "name":"Dave" , "description":"Mad & Space assistant", "xhandle":"defidave"},
-    { "id": 9, "image": "team9", "name":"Kelvin" , "description":"Mad", "xhandle":"defidave"}
+    { "id": 7, "image": "team7", "name":"Foxy Roxy" , "description":"Mod & Space assistant" , "xhandle":"DefiDave2k24"},
+    { "id": 8, "image": "team8" , "name":"Dave" , "description":"Mod & Space assistant", "xhandle":"defidave"},
+    { "id": 9, "image": "team9", "name":"Kelvin" , "description":"Mod", "xhandle":"defidave"}
   ]
   
